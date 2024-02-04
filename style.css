@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #333;
+}
+
+h2 {
+    color: #555;
+}
+
+.choice {
+    display: inline-block;
+    margin: 10px;
+}
+
+span {
+    font-weight: bold;
+    color: #333;
+}
+
+img {
+    cursor: pointer;
+    width: 100px; /* Set your preferred width */
+    height: 100px; /* Set your preferred height */
+}
+
+#d {
+    font-size: 18px;
+    color: #555;
+}
+
+#msg {
+    font-size: 20px;
+    font-weight: bold;
+    color: #007bff;
+}
+
+
+.loss {
+    background-color: #FF6868;
+}
+
+.win {
+    background-color: #9ADE7B;
+}
+
+.default {
+    background-color: #F0DBAF;
+}

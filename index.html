@@ -1,17 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-<h1>WELCOME TO 7 UP & DOWN GAME</h1>
-<h2>Choose either up or down</h2>
-<button id="up" onclick="upClicked()">UP</button>
-<button id="down" onclick="downClicked()">DOWN</button>
-<p id="d"></p>
-<p id="msg"></p>
-<script src="./App.js"></script>
+
+<body id="App" class="default">
+    <h1>WELCOME TO 7 UP & DOWN GAME</h1>
+    <h2>Choose either</h2>
+    <span>UP</span>
+    <img src="./greenbutton.jpg" id="up" onclick="upClicked()">
+    <span>DOWN</span>
+    <img src="./redbutton.jpg" id="down" onclick="downClicked()">
+    <p id="d"></p>
+    <p id="msg"></p>
+    <script src="./App.js"></script>
 </body>
+
 </html>
